@@ -967,7 +967,7 @@
                             previewHandler.copyTextContent(null, window.api.url + '?file=' + path);
                             const btn = document.querySelector('.btn.quote');
                             btn.innerHTML = 'Copied';
-                            setTimeout(() => btn.innerHTML = 'Share DDL', 250);
+                            setTimeout(() => btn.innerHTML = 'Link', 250);
                         }
                     );
                     document.querySelector('.btn.share').addEventListener('click',
@@ -1318,7 +1318,7 @@
                     <div class="info">
                         <div class="file-name"></div>
                         <div class="btn download">Download</div>
-                        <div class="btn quote">Share DDL</div>
+                        <div class="btn quote">Link</div>
                         <div class="btn share">Share</div>
                     </div>
                     <div class="content"></div>
